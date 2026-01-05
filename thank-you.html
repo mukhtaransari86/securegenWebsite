@@ -1,0 +1,301 @@
+<!-- File: thank-you.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | SecureGen Systems</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #020617;
+            color: #f8fafc;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        .glass {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(16px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .gradient-devops {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-security {
+            background: linear-gradient(90deg, #f97316, #ef4444);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .pulse-animation {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-4xl mx-auto">
+        <!-- Navigation Bar (Matching your site) -->
+        <nav class="glass rounded-2xl p-4 mb-8 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-3">
+                <img src="./Securden1.jpg" alt="SecureGen Systems Logo" class="h-10 w-auto">
+                <span class="text-xl font-extrabold">
+                    <span class="text-white">SecureGen</span>
+                    <span class="text-emerald-500">Systems</span>
+                </span>
+            </a>
+            <a href="index.html" class="text-emerald-400 hover:text-emerald-300 transition">
+                <i class="fas fa-arrow-left mr-2"></i> Back to Home
+            </a>
+        </nav>
+
+        <!-- Thank You Content -->
+        <div class="glass p-8 md:p-12 rounded-3xl border border-emerald-500/20">
+            <div class="text-center mb-12">
+                <div class="w-28 h-28 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-8 shadow-2xl shadow-emerald-500/30">
+                    <i class="fas fa-check-circle text-6xl text-white"></i>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Engineering Assessment Confirmed!</h1>
+                <p class="text-xl text-slate-300 mb-6 max-w-2xl mx-auto">
+                    Your request for DevOps & Cloud Security assessment has been received. Our engineering team is reviewing your submission.
+                </p>
+                <div class="inline-flex items-center px-6 py-3 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-lg font-bold mb-8 pulse-animation">
+                    <i class="fas fa-clock mr-3"></i> Expect engineer contact within 24 hours
+                </div>
+            </div>
+
+            <!-- Next Steps -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold mb-8 text-emerald-400 text-center">What Happens Next:</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="glass p-6 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition">
+                        <div class="w-14 h-14 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-5 mx-auto">
+                            <i class="fas fa-calendar-check text-emerald-500 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold mb-3 text-center text-lg">1. Schedule Engineering Call</h4>
+                        <p class="text-sm text-slate-400 text-center">We'll email you available time slots for your 45-minute technical review with our lead engineers</p>
+                    </div>
+                    <div class="glass p-6 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition">
+                        <div class="w-14 h-14 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-5 mx-auto">
+                            <i class="fas fa-chart-line text-emerald-500 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold mb-3 text-center text-lg">2. Technical Discovery</h4>
+                        <p class="text-sm text-slate-400 text-center">Share architecture diagrams, cloud bills, CI/CD pipeline details, and security concerns</p>
+                    </div>
+                    <div class="glass p-6 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition">
+                        <div class="w-14 h-14 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-5 mx-auto">
+                            <i class="fas fa-bolt text-emerald-500 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold mb-3 text-center text-lg">3. Immediate Recommendations</h4>
+                        <p class="text-sm text-slate-400 text-center">We'll identify quick wins for cost optimization, security hardening, and deployment acceleration</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Suggested Next Steps Section -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold mb-8 text-center">
+                    <span class="gradient-devops">DevOps</span> & 
+                    <span class="gradient-security">Security</span> Resources While You Wait
+                </h3>
+                
+                <div class="grid md:grid-cols-2 gap-8 mb-10">
+                    <!-- Technical Blog Posts -->
+                    <div class="glass p-6 rounded-2xl border border-blue-500/20">
+                        <h4 class="font-bold mb-4 text-blue-400 text-lg flex items-center">
+                            <i class="fas fa-book-open mr-2"></i> Technical Insights
+                        </h4>
+                        <div class="space-y-4">
+                            <a href="https://blog.securegensystems.com/kubernetes-security-hardening" target="_blank" class="block p-4 bg-slate-800/50 rounded-xl hover:bg-slate-800 transition group">
+                                <div class="flex items-start justify-between">
+                                    <div>
+                                        <div class="font-semibold mb-1 group-hover:text-blue-300">Kubernetes Security Hardening Checklist</div>
+                                        <p class="text-xs text-slate-400">21 steps to secure your K8s clusters in production</p>
+                                    </div>
+                                    <i class="fas fa-external-link-alt text-blue-500 mt-1"></i>
+                                </div>
+                            </a>
+                            <a href="https://blog.securegensystems.com/gitops-pipelines-scale" target="_blank" class="block p-4 bg-slate-800/50 rounded-xl hover:bg-slate-800 transition group">
+                                <div class="flex items-start justify-between">
+                                    <div>
+                                        <div class="font-semibold mb-1 group-hover:text-blue-300">Building GitOps Pipelines That Scale</div>
+                                        <p class="text-xs text-slate-400">From 10 to 10,000 deployments per day</p>
+                                    </div>
+                                    <i class="fas fa-external-link-alt text-blue-500 mt-1"></i>
+                                </div>
+                            </a>
+                            <a href="https://blog.securegensystems.com/soc2-compliance-30-days" target="_blank" class="block p-4 bg-slate-800/50 rounded-xl hover:bg-slate-800 transition group">
+                                <div class="flex items-start justify-between">
+                                    <div>
+                                        <div class="font-semibold mb-1 group-hover:text-orange-300">SOC2 Compliance in 30 Days</div>
+                                        <p class="text-xs text-slate-400">Step-by-step guide for startups</p>
+                                    </div>
+                                    <i class="fas fa-external-link-alt text-orange-500 mt-1"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Assessment Tools -->
+                    <div class="glass p-6 rounded-2xl border border-orange-500/20">
+                        <h4 class="font-bold mb-4 text-orange-400 text-lg flex items-center">
+                            <i class="fas fa-chart-bar mr-2"></i> Free Assessment Tools
+                        </h4>
+                        <div class="space-y-4">
+                            <a href="https://tools.securegensystems.com/devops-maturity" target="_blank" class="block p-4 bg-slate-800/50 rounded-xl hover:bg-slate-800 transition group">
+                                <div class="flex items-start justify-between">
+                                    <div>
+                                        <div class="font-semibold mb-1 group-hover:text-blue-300">DevOps Maturity Calculator</div>
+                                        <p class="text-xs text-slate-400">Benchmark your team against unicorn standards</p>
+                                    </div>
+                                    <i class="fas fa-calculator text-blue-500 mt-1"></i>
+                                </div>
+                            </a>
+                            <a href="https://tools.securegensystems.com/cloud-security-risk" target="_blank" class="block p-4 bg-slate-800/50 rounded-xl hover:bg-slate-800 transition group">
+                                <div class="flex items-start justify-between">
+                                    <div>
+                                        <div class="font-semibold mb-1 group-hover:text-orange-300">Cloud Security Risk Scorecard</div>
+                                        <p class="text-xs text-slate-400">Identify critical vulnerabilities in 15 minutes</p>
+                                    </div>
+                                    <i class="fas fa-shield-alt text-orange-500 mt-1"></i>
+                                </div>
+                            </a>
+                            <a href="https://tools.securegensystems.com/finops-audit" target="_blank" class="block p-4 bg-slate-800/50 rounded-xl hover:bg-slate-800 transition group">
+                                <div class="flex items-start justify-between">
+                                    <div>
+                                        <div class="font-semibold mb-1 group-hover:text-emerald-300">FinOps Quick Audit</div>
+                                        <p class="text-xs text-slate-400">Estimate potential cloud savings instantly</p>
+                                    </div>
+                                    <i class="fas fa-coins text-emerald-500 mt-1"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Case Studies Section -->
+                <div class="glass p-6 rounded-2xl border border-emerald-500/20">
+                    <h4 class="font-bold mb-4 text-emerald-400 text-lg flex items-center">
+                        <i class="fas fa-chart-line mr-2"></i> Real-World Case Studies
+                    </h4>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="p-4 bg-slate-800/30 rounded-xl">
+                            <div class="flex items-center mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center mr-3">
+                                    <i class="fas fa-cogs text-blue-500"></i>
+                                </div>
+                                <div>
+                                    <div class="font-semibold">DevOps Transformation</div>
+                                    <div class="text-xs text-slate-500">Fintech Unicorn</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-slate-400 mb-3">Reduced deployment time from 4 hours to 8 minutes while achieving 99.99% uptime SLA.</p>
+                            <a href="https://casestudies.securegensystems.com/devops-fintech" target="_blank" class="text-xs text-blue-400 hover:text-blue-300 inline-flex items-center">
+                                Read Full Case Study <i class="fas fa-arrow-right ml-1 text-xs"></i>
+                            </a>
+                        </div>
+                        <div class="p-4 bg-slate-800/30 rounded-xl">
+                            <div class="flex items-center mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-orange-500/10 flex items-center justify-center mr-3">
+                                    <i class="fas fa-shield-alt text-orange-500"></i>
+                                </div>
+                                <div>
+                                    <div class="font-semibold">Cloud Security Overhaul</div>
+                                    <div class="text-xs text-slate-500">E-commerce Scale-up</div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-slate-400 mb-3">Achieved SOC2 Type II in 45 days while reducing security incidents by 95%.</p>
+                            <a href="https://casestudies.securegensystems.com/security-ecommerce" target="_blank" class="text-xs text-orange-400 hover:text-orange-300 inline-flex items-center">
+                                Read Full Case Study <i class="fas fa-arrow-right ml-1 text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- Action Buttons -->
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="index.html" class="bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white py-5 px-10 rounded-xl font-bold text-lg transition-all shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40">
+                    <i class="fas fa-home mr-3"></i> Return to Homepage
+                </a>
+                
+            </div>
+
+            <!-- Confirmation Message -->
+            <div class="mt-12 pt-8 border-t border-white/5">
+                <div class="flex items-start">
+                    <i class="fas fa-envelope-circle-check text-emerald-500 text-2xl mr-4 mt-1"></i>
+                    <div>
+                        <p class="font-semibold mb-2">Confirmation Email Sent</p>
+                        <p class="text-slate-400 text-sm">
+                            We've sent a detailed confirmation to your email with:
+                            <span class="block mt-2 ml-4">✓ Assessment checklist to prepare</span>
+                            <span class="block ml-4">✓ Recommended reading materials</span>
+                            <span class="block ml-4">✓ SecureGen engineering contact details</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-12 pt-8 border-t border-white/5 text-center">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-6">
+                <p class="text-slate-500 text-sm mb-4 md:mb-0">© 2025 SecureGen Systems Pvt Ltd. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="https://linkedin.com/company/securegen-systems" target="_blank" class="text-slate-500 hover:text-emerald-400 transition">
+                        <i class="fab fa-linkedin text-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/securegensystems" target="_blank" class="text-slate-500 hover:text-emerald-400 transition">
+                        <i class="fab fa-twitter text-lg"></i>
+                    </a>
+                    <a href="https://github.com/securegen" target="_blank" class="text-slate-500 hover:text-emerald-400 transition">
+                        <i class="fab fa-github text-lg"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="text-slate-600 text-xs">Built with ❤️ in India for engineering teams that build at unicorn scale.</p>
+        </div>
+    </div>
+
+    <script>
+        // Countdown timer
+        let countdown = 30;
+        const countdownElement = document.createElement('div');
+        countdownElement.className = 'text-center text-slate-500 text-sm mt-6';
+        document.querySelector('.text-center').appendChild(countdownElement);
+        
+        const timer = setInterval(() => {
+            countdown--;
+            countdownElement.innerHTML = `You'll be redirected to homepage in ${countdown} seconds...`;
+            
+            if (countdown <= 0) {
+                clearInterval(timer);
+                window.location.href = 'index.html';
+            }
+        }, 1000);
+        
+        // Track conversion
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-XXXXXXXXX/YYYYYYYYYYYY',
+                'value': 1.0,
+                'currency': 'INR'
+            });
+        }
+        
+        // LinkedIn Insight Tag
+        if (typeof lintrk !== 'undefined') {
+            lintrk('track', { conversion_id: XXXXXXXXXX });
+        }
+    </script>
+</body>
+</html>

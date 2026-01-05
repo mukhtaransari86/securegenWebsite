@@ -1,2 +1,2 @@
-# securegenWebsite
+# SiteSecureGen
 Domain Automation
