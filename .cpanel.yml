@@ -4,5 +4,5 @@ deployment:
     # Copy files from repo to web directory
     - /bin/cp -rf /home/tlfftvli/repositories/securegenWebsite/* /home/tlfftvli/public_html/
     # Set proper permissions
-    - /bin/chmod 744 /home/tlfftvli/public_html/*.html
+    - /bin/chmod 644 /home/tlfftvli/public_html/*.html
     - /bin/chmod 755 /home/tlfftvli/public_html
